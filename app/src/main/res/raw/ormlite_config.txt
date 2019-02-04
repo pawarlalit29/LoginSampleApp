@@ -1,0 +1,29 @@
+# --table-start--
+dataClass=com.lalitp.myapplication.Pojo.LogsResult
+tableName=log_details
+# --table-fields-start--
+# --field-start--
+fieldName=notificationId
+columnName=_id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=username
+columnName=username
+# --field-end--
+# --field-start--
+fieldName=password
+columnName=password
+# --field-end--
+# --field-start--
+fieldName=message
+columnName=message
+# --field-end--
+# --field-start--
+fieldName=timestamp
+columnName=timestamp
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+

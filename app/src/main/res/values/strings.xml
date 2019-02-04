@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <!-- Strings related to getProductList -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Passwor</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="logs">LOGS</string>
+    <string name="progressActivityEmptyTitlePlaceholder">Nothing here.</string>
+    <string name="progressActivityEmptyContentPlaceholder">We couldn\'t find anything. Tap the button to take your first image.</string>
+    <string name="progressActivityErrorTitlePlaceholder">No Internet Connection</string>
+    <string name="progressActivityErrorContentPlaceholder">We are unable to establish a connection with our server. Please check your internet connection.</string>
+    <string name="title_activity_product_list">Product List</string>
+    <string name="title_activity_store_logs">Store Logs</string>
+    <string name="save">Save</string>
+</resources>
