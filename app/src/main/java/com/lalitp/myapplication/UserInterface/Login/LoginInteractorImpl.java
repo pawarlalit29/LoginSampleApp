@@ -42,7 +42,7 @@ public class LoginInteractorImpl implements LoginInteractor {
             return;
         } else if (!Common_Utils.isNetworkAvailable()) {
             logLoginState(loginParam, AppConstant.no_internet_connection);
-            listener.onError(AppConstant.no_internet_connection);
+            listener.noInternetConnection();
             return;
         }
 

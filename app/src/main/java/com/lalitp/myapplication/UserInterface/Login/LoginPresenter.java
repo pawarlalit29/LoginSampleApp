@@ -23,6 +23,4 @@ import com.lalitp.myapplication.Pojo.Login.LoginParam;
 
 public interface LoginPresenter {
     void validateCredentials(LoginParam loginParam);
-    void getRememberData();
-    void onDestroy();
 }

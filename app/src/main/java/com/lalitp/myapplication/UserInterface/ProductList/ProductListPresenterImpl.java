@@ -37,6 +37,9 @@ public class ProductListPresenterImpl implements ProductListPresenter, ProductLi
     @Override
     public void getProductData() {
 
+        if(productListView!=null)
+            productListView.showProgress();
+
         if (Common_Utils.isNetworkAvailable()) {
             productListInteractor.getProductList(this);
         } else {

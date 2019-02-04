@@ -23,15 +23,9 @@ public class LoginSampleApp extends MultiDexApplication {
         return sInstance.getApplicationContext();
     }
 
-    //private static GoogleAnalytics analytics;
-    //private static Tracker tracker;
 
     // Reference of DatabaseHelper class to access its DAOs and other components
     public static DatabaseHelper databaseHelper = null;
-
-    public static final String PUSH_REGISTER_NAME = "register";
-    public static SecurePreferences securePreferences;
-    public static String TAG = "AtplBuyer";
 
     public static Context context;
 

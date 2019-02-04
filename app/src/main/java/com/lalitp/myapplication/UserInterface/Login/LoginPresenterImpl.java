@@ -41,16 +41,6 @@ public class LoginPresenterImpl implements LoginPresenter, LoginInteractor.ViewC
         loginInteractor.login(loginParam, this);
     }
 
-    @Override
-    public void getRememberData() {
-        loginInteractor.getRememberMeData(this);
-    }
-
-
-    @Override
-    public void onDestroy() {
-        loginView = null;
-    }
 
     @Override
     public void onSuccess(String msg) {
